@@ -1,2 +1,1 @@
-module.exports =
-  'Fuentes de información'
+module.exports = 'Fuentes de información'
