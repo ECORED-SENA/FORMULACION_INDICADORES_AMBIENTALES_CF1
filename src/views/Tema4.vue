@@ -124,7 +124,66 @@
       | &nbsp;Clasificación de los impactos ambientales
     p.mb-5  Dentro de los impactos ambientales, se encuentran distintas clasificaciones de acuerdo con sus propiedades; veamos los más representativos en el siguiente recurso.
 
-    //-- Aqui viene el set de navholders
+    .row.mb-5.justify-content-center
+      .col-xs-5.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n1.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Positivo o negativo
+              p.small De acuerdo a los efectos resultantes sobre el medio ambiente. 
+      .col-xs-5.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n2.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Directo o indirecto
+              p.small Esto se da cuando el impacto es producido por una acción especifica del proyecto. 
+          .indicador--click(v-if="mostrarIndicador")
+      .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n3.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Acumulativo
+              p.small Este es el resultado de la adición de impactos ambientales que ocurrieron previamente y que aún están pasando actualmente. 
+      .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n4.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Sinérgico
+              p.small Se produce cuando la aglomeración de impactos tiene una incidencia mayor que cuando se suman individualmente los impactos. 
+              
+      .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n5.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Residual
+              p.small Es aquel que persiste después de la implementación de medidas de mitigación.
+              
+      .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n6.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Temporal o permanente
+              p.small Cuando son por un período de tiempo determinado.
+      .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n7.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Reversible o irreversible
+              p.small Estos dependen de que tan factible es retornar a las condiciones originarias. 
+      .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
+        .nav-holder.align-items-center(data-aos="flip-left")
+          img(src="@/assets/curso/t6-n8.png", alt="Imagen decorativa")
+          .text.p-lg-3.p-4
+            .row.px-lg-3.mb-lg-2
+              p.h3 Continuo o periódico
+              p.small Dependerá del período en que se exteriorice.
 
 
     h3.titulo-tercero
@@ -352,7 +411,9 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    indicadorImagenZoom: true,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {

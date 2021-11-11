@@ -177,7 +177,9 @@
 export default {
   name: 'Tema3',
   data: () => ({
-    // variables de vue
+    mostrarIndicador: true,
+    indicadorImagenZoom: true,
+    indicadorTarjetaFlip: true,
   }),
   mounted() {
     this.$nextTick(() => {
