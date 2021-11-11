@@ -131,10 +131,10 @@
       i.fas.fa-leaf
       | &nbsp;Identificación de los impactos ambientales    
     p.mb-5  Para identificar los impactos ambientales es necesario conocer primero los aspectos ambientales dentro de su organización, tanto de las actividades, productos o servicios y cómo estos afectan el medio ambiente. A continuación, se relacionan algunas variables que se deben tener como factor contaminante.
-    .tarjeta.soft-yellow.p-4.mb-5
+    .tarjeta.soft-yellow2.p-4.mb-5
       LineaTiempoC.color-acento-contenido(text-small)
-        .row(titulo="Atmósfera")
-          .col-md-6
+        .row.justify-content-center(titulo="Atmósfera")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m1.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -151,8 +151,8 @@
                 i.fas.fa-check
                 p.mb-0  Emisiones de CO2.
 
-        .row(titulo="Ruido")
-          .col-md-6
+        .row.justify-content-center(titulo="Ruido")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m2.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -168,8 +168,8 @@
                 i.fas.fa-check
                 p.mb-0  Decibelímetro.
 
-        .row(titulo="Agua")
-          .col-md-6
+        .row.justify-content-center(titulo="Agua")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m3.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -190,8 +190,8 @@
               li
                 i.fas.fa-check
                 p.mb-0  Coliformes
-        .row(titulo="Suelos")
-          .col-md-6
+        .row.justify-content-center(titulo="Suelos")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m4.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -224,8 +224,8 @@
                 p.mb-0  Producción agraria.
 
 
-        .row(titulo="Paisaje")
-          .col-md-6
+        .row.justify-content-center(titulo="Paisaje")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m5.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -241,8 +241,8 @@
                 i.fas.fa-check
                 p.mb-0  Valoración indirecta.
 
-        .row(titulo="Fauna")
-          .col-md-6
+        .row.justify-content-center(titulo="Fauna")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m6.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -252,8 +252,8 @@
             .h5 Identificación: 
             p.mb-3  Estará determinado por la abundancia de especies y sus diferentes variedades.
 
-        .row(titulo="Vegetación")
-          .col-md-6
+        .row.justify-content-center(titulo="Vegetación")
+          .col-md-4
             figure
               img(src='@/assets/curso/t4-m7.png', alt='imagen decorativa')        
           .col-md-6.mb-4.mb-md-0
@@ -267,7 +267,7 @@
     p.mb-5  En el impacto ambiental existen una serie de pasos fundamentales para tener en cuenta en el proceso de identificación, como lo son:
     .row.mb-5.justify-content-center
       .col-lg-8
-        PasosA.color-acento-botones.mb-5(tipo="l")
+        PasosA.color-acento-botones.mb-5(tipo="n")
           .row.align-items-center
             .col-md-2.mb-4.mb-md-0
               figure
