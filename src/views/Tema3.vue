@@ -24,8 +24,6 @@
         p.mb-3  <b>El IAP mide la capacidad que tiene un proyecto, obra o actividad de producir impactos ambientales sobre el medio físico, biótico y socioeconómico de acuerdo con sus características intrínsecas,</b> siendo posible evaluarlo con base en actividades previas o que se encuentran en ejercicio, pues en la medida en que el IAP refleja los impactos característicos de cada tipo de proyecto, obra o actividad, puede ser empleado para estimar de forma preliminar del grado de modificación de las condiciones ambientales de un proyecto en particular.
         p.mb-3.text-bold  Teniendo en cuenta que se debe cumplir con una normatividad previamente establecida como lo son:
 
-    p.mb-5  En este sentido, es necesario relacionar los recursos naturales que serán objeto de uso, aprovechamiento o afectación, como consecuencia de la realización de las actividades. Por esto, será necesario presentar la información que se requiere especificada a continuación:
-
     .neg-margin-x.bg-sliders2
       .row.justify-content-center
         .col-lg-8
@@ -35,13 +33,13 @@
                 img(src='@/assets/curso/t3-info1.svg', alt='imagen decorativa')
 
             .tarjeta.color-acento-botones.p-3.shadow-box(x="0%" y="13%" numero="")
-              p Trámites de autorizaciones
+              p.mb-0 Trámites de autorizaciones.
             .tarjeta.color-acento-botones.p-3.shadow-box(x="100%" y="13%" numero="")
-              p Concesiones
+              p.mb-0 Concesiones.
             .tarjeta.color-acento-botones.p-3.shadow-box(x="0%" y="80%" numero="")
-              p Permisos necesarios para la realización de un proyecto
+              p.mb-0 Permisos necesarios para la realización de un proyecto.
             .tarjeta.color-acento-botones.p-3.shadow-box(x="100%" y="80%" numero="")
-              p Concesiones
+              p.mb-0 Oferta y demanda de recursos naturales que serán empleados en dichos proyectos.
 
     p.mb-5  En este sentido, es necesario relacionar los recursos naturales que serán objeto de uso, aprovechamiento o afectación, como consecuencia de la realización de las actividades. Por esto, será necesario presentar la información que se requiere especificada a continuación:
     .row.mb-5.justify-content-center

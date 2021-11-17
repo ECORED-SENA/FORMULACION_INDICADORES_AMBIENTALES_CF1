@@ -15,7 +15,7 @@
                 img.nW.centered(src='@/assets/curso/t1-ic1.png')
             .col-lg-8
               .bloque-texto-a__texto.p-4.shadow-box
-                p Se habla de fuentes de información o fuentes de documentación para referirse al origen de una información en particular, es decir, el apoyo en el cual se puede acudir para su recuperación. En este sentido, las referencias pueden ser de un tipo muy diferente y de esta forma, proporcionar datos más o menos confiables que serán cruciales y que influyen de manera decisiva en los resultados que se obtengan. Para ello, se cuenta con fuentes de información primaria, secundarias y terciarias que se pueden consultar en el siguiente recurso.
+                p Se habla de fuentes de información o fuentes de documentación para referirse al origen de una información en particular, es decir, el apoyo al cual se puede acudir para su recuperación. En este sentido, las referencias pueden ser de un tipo muy diferente y de esta forma, proporcionar datos más o menos confiables que serán cruciales y que influyen de manera decisiva en los resultados que se obtengan. Para ello, se cuenta con fuentes de información primaria, secundaria y terciaria que se pueden consultar en el siguiente recurso.
 
     .tarjeta.bg-sliders.p-4.mb-5
       SlyderA

@@ -13,7 +13,7 @@
       .col-lg-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.custom-cardBlock.slideInUp
           .bloque-texto-g__texto.p-4.shadow-box
-            p.mb-0 La formulación de indicadores ambientales requiere de conocimientos básicos de factores ambientales con el fin de apropiar los conceptos de medición y aplicabilidad a continuación podrá identificar elementos básicos del proceso de introducción. Lo invitamos a ver el siguiente video para conocer más sobre la temática a estudiar.
+            p.mb-0 La formulación de indicadores ambientales requiere de conocimientos básicos de factores ambientales con el fin de apropiar los conceptos de medición y aplicabilidad. A continuación podrá identificar elementos básicos del proceso de introducción. Lo invitamos a ver el siguiente video para conocer más sobre la temática a estudiar.
 
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/t0-i1.jpg')})`}"

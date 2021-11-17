@@ -8,9 +8,9 @@
       h1 Sistemas de información ambiental   
     .row.mb-5
       .col-lg-7.slideInLeft
-        p.mb-4.text-bold.text-green El sistema de información en Colombia denominado SIA, es el encargado de gestionar la información ambiental del país por medio de la integración de actores, procesos, políticas y tecnología que gestionen información acerca del estado, del uso, aprovechamiento, sostenibilidad y vulnerabilidad del medio ambiente, para la educación y participación social con miras a la toma de decisiones que aporten hacia el desarrollo sostenible del país.
+        p.mb-4.text-bold.text-green El sistema de información en Colombia denominado SIA, es el encargado de gestionar la información ambiental del país por medio de la integración de actores, procesos, políticas y tecnología, que gestiona información acerca del estado, el uso, aprovechamiento, sostenibilidad y vulnerabilidad del medio ambiente, para la educación y participación social con miras a la toma de decisiones que aporten hacia el desarrollo sostenible del país.
         .cajon.color-acento-botones.p-4.mb-4
-          p.mb-0  El SIA tiene como objetivo identificar los ecosistemas, recursos naturales, o regiones que tienen alta prioridad en acciones de investigación, protección, recuperación o manejo sostenible. Este sistema está liderado por el Ministerio de ambiente y desarrollo sostenible, en coordinación con los institutos de investigación ambiental <b>IDEAM, SINCHI, HUMBOLDT e INVEMAR</b>, las autoridades ambientales regionales, la comunidad académica y todos los usuarios y proveedores de la información ambiental.
+          p.mb-0  El SIA tiene como objetivo identificar los ecosistemas, recursos naturales, o regiones que tienen alta prioridad en acciones de investigación, protección, recuperación o manejo sostenible. Este sistema está liderado por el Ministerio de Ambiente y Desarrollo Sostenible, en coordinación con los institutos de investigación ambiental <b>IDEAM, SINCHI, HUMBOLDT e INVEMAR</b>, las autoridades ambientales regionales, la comunidad académica y todos los usuarios y proveedores de la información ambiental.
         p.mb-3  Dentro de esta plataforma del sistema de información se pueden encontrar cifras y estadísticas ambientales de diferentes aspectos tales como:
       .col-lg-5.slideInRight
         figure
