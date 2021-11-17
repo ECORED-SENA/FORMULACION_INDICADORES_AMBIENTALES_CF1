@@ -28,7 +28,7 @@
 
     h3.titulo-tercero
       i.fas.fa-leaf
-      | &nbsp;Aspectos ambientales
+      | &nbsp;Clasificación de los aspectos ambientales
     p.mb-5  La importancia del aspecto ambiental depende en gran medida del funcionamiento de la organización y su ubicación.
     p.mb-5  Para ello, <b>existen dos categorías distintas de aspectos ambientales:</b>
 
@@ -101,14 +101,14 @@
             h4 El aprovechamiento de recursos naturales
             p Estos recursos pueden ser utilizados para el aprovechamiento forestal cuando son renovables, cuando no son renovables son utilizados en extracción como lo es el petróleo o el carbón.
       
-      .py-4.py-md-5(titulo="El aprovechamiento de recursos naturales" :icono="require('@/assets/curso/t4-ico2.svg')")
+      .py-4.py-md-5(titulo="Contaminación" :icono="require('@/assets/curso/t4-ico2.svg')")
         .row.justify-content-center
           .col-md-4
             figure.slideInLeft
               img(src='@/assets/curso/t4-i4.jpg', alt='imagen decorativa')     
           .col-md-6.mb-4.mb-md-0
             h4 Contaminación
-            p Acá se relacionan aquellos proyectos que dentro de su funcionamiento emitan gases a la atmosfera o que contaminen cuerpos de agua con vertimientos.
+            p Acá se relacionan aquellos proyectos que dentro de su funcionamiento emitan gases a la atmósfera o que contaminen cuerpos de agua con vertimientos.
 
       .py-4.py-md-5(titulo="Ocupación del territorio" :icono="require('@/assets/curso/t4-ico3.svg')")
         .row.justify-content-center
@@ -117,12 +117,12 @@
               img(src='@/assets/curso/t4-i5.jpg', alt='imagen decorativa')     
           .col-md-6.mb-4.mb-md-0
             h4 Ocupación del territorio
-            p Son aquellos proyectos que modifican las condiciones biológicas de un territorio ya sea por acciones de uso de tierras para extracción u otro tipo de acciones donde se vea afectado las áreas determinadas.  
+            p Son aquellos proyectos que modifican las condiciones biológicas de un territorio ya sea por acciones de uso de tierras para extracción u otro tipo de acciones donde se vean afectadas las áreas determinadas.  
 
     h3.titulo-tercero
       i.fas.fa-leaf
       | &nbsp;Clasificación de los impactos ambientales
-    p.mb-5  Dentro de los impactos ambientales, se encuentran distintas clasificaciones de acuerdo con sus propiedades; veamos los más representativos en el siguiente recurso.
+    p.mb-5  Dentro de los impactos ambientales, se encuentran distintas clasificaciones de acuerdo con sus propiedades; veamos los más representativos en el siguiente recurso:
 
     .row.mb-5.justify-content-center
       .col-xs-5.col-sm-8.col-md-6.col-lg-3.col-xl-3
@@ -138,7 +138,7 @@
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Directo o indirecto
-              p.small Esto se da cuando el impacto es producido por una acción especifica del proyecto. 
+              p.small Esto se da cuando el impacto es producido por una acción específica del proyecto. 
           .indicador--click(v-if="mostrarIndicador")
       .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
         .nav-holder.align-items-center(data-aos="flip-left")
@@ -153,7 +153,7 @@
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Sinérgico
-              p.small Se produce cuando la aglomeración de impactos tiene una incidencia mayor que cuando se suman individualmente los impactos. 
+              p.small Se produce cuando la aglomeración de impactos tiene una incidencia mayor que cuando se suman individualmente. 
               
       .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
         .nav-holder.align-items-center(data-aos="flip-left")
@@ -176,7 +176,7 @@
           .text.p-lg-3.p-4
             .row.px-lg-3.mb-lg-2
               p.h3 Reversible o irreversible
-              p.small Estos dependen de que tan factible es retornar a las condiciones originarias. 
+              p.small Estos dependen de qué tan factible es retornar a las condiciones originarias. 
       .col-xs-8.col-sm-8.col-md-6.col-lg-3.col-xl-3
         .nav-holder.align-items-center(data-aos="flip-left")
           img(src="@/assets/curso/t6-n8.png", alt="Imagen decorativa")

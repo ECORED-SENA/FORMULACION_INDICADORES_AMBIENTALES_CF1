@@ -41,7 +41,7 @@
             .tarjeta.color-acento-botones.p-3.shadow-box(x="100%" y="80%" numero="")
               p.mb-0 Oferta y demanda de recursos naturales que serán empleados en dichos proyectos.
 
-    p.mb-5  En este sentido, es necesario relacionar los recursos naturales que serán objeto de uso, aprovechamiento o afectación, como consecuencia de la realización de las actividades. Por esto, será necesario presentar la información que se requiere especificada a continuación:
+    p.mb-5  En este sentido, es necesario relacionar los recursos naturales que serán objeto de uso, aprovechamiento o afectación, como consecuencia de la realización de las actividades. Por esto, será necesario presentar la información que se requiere, especificada a continuación:
     .row.mb-5.justify-content-center
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta soft-yellow")
@@ -50,8 +50,8 @@
               figure.slideInLeft
                 img(src='@/assets/curso/t3-t1.svg', alt='imagen decorativa')
             .col-md-6.mb-4.mb-md-0
-              p.mb-3 <b>Oferta:</b> se debe presentar los caudales de los cuerpos de agua que serán intervenidos en el proyecto.
-              p.mb-3 <b>Demanda:</b> es necesario realizar un inventario que denote cuales son los usuarios que se verán afectados o beneficiados al ser utilizado este cuerpo de agua.    
+              p.mb-3 <b>Oferta:</b> se deben presentar los caudales de los cuerpos de agua que serán intervenidos en el proyecto.
+              p.mb-3 <b>Demanda:</b> es necesario realizar un inventario que denote cuáles son los usuarios que se verán afectados o beneficiados al ser utilizado este cuerpo de agua.    
               p.mb-3 Se requiere presentar los diseños de captación y conducción de los cuerpos de agua a intervenir.
               p.mb-3 Ubicación de los cuerpos de agua a utilizar por el proyecto.             
 
@@ -97,7 +97,7 @@
                   i.fas.fa-check
                   p.mb-0  Listado de posibles impactos ambientales dentro del cuerpo de agua receptor.
 
-          .row(titulo="Ocupación de causes")
+          .row(titulo="Ocupación de cauces")
             .col-md-6
               figure.slideInLeft
                 img(src='@/assets/curso/t3-t4.png', alt='imagen decorativa')
@@ -140,7 +140,7 @@
                   p.mb-0  Debe presentar el régimen de propiedad de las áreas que se aprovechan.
                 li
                   i.fas.fa-check
-                  p.mb-0  Se requiere las áreas que se aprovecharán, igualmente que la taxonomía de especies allí ubicadas.
+                  p.mb-0  Se requieren las áreas que se aprovecharán, igualmente que la taxonomía de especies allí ubicadas.
                 li
                   i.fas.fa-check
                   p.mb-0  Se deben indicar los proyectos compensatorios tales como protección, conservación y repoblación forestal.
@@ -175,7 +175,7 @@
               ul.lista-ul
                 li
                   i.fas.fa-check
-                  p.mb-0  Se debe presentar un cronograma con las fechas proyectada de iniciación y terminación del proyecto. 
+                  p.mb-0  Se debe presentar un cronograma con las fechas proyectadas de iniciación y terminación del proyecto. 
                 li
                   i.fas.fa-check
                   p.mb-0  Es necesario describir las actividades de mantenimiento, tratamiento y disposición.  
