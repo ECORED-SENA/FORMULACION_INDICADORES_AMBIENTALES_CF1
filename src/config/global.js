@@ -113,7 +113,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Universidad de Guadalajara, (s.f.) Clasificación general de las fuentes de información',
+        'Universidad de Guadalajara, (s.f.). Clasificación general de las fuentes de información.',
       link:
         'http://biblioteca.udgvirtual.udg.mx/portal/clasificacion-general-de-las-fuentes-de-informacion',
     },
@@ -127,7 +127,7 @@ export default {
     {
       termino: 'Diagrama de flujo',
       significado:
-        'representa la esquematización gráfica de un algoritmo, el cual muestra gráficamente los pasos o procesos a seguir para alcanzar la solución de un problema. Su correcta construcción es sumamente importante porque, a partir del mismo se escribe un programa en algún Lenguaje de Programación.',
+        'representa la esquematización gráfica de un algoritmo, el cual muestra gráficamente los pasos o procesos a seguir para alcanzar la solución de un problema. Su correcta construcción es sumamente importante porque, a partir del mismo se escribe un programa en algún lenguaje de programación.',
     },
     {
       termino: 'Impacto ambiental',

@@ -48,7 +48,7 @@
                   figure
                     img.nW.centered(src='@/assets/curso/t6-s5.svg' alt='figura geometrica')
               tr
-                td Documentación (generación, consulta, etc)
+                td Documentación (generación, consulta, etc.)
                 td.b-left
                   figure
                     img.nW.centered(src='@/assets/curso/t6-s7.svg' alt='figura geometrica')
@@ -73,7 +73,7 @@
                   figure
                     img.nW.centered(src='@/assets/curso/t6-s11.svg' alt='figura geometrica')
               tr
-                td Conector
+                td Línea de flujo
                 td.b-left
                   figure
                     img.nW.centered(src='@/assets/curso/t6-s12.svg' alt='figura geometrica')
@@ -82,11 +82,11 @@
 
     p.mb-5.text-bold  Y pueden ser:
 
-    TabsC.color-primario.mb-5
+    TabsC.color-acento-contenido.mb-5
       .py-3.py-md-4(titulo="Horizontal")
         .row.justify-content-center
           .col-md-12.mb-4.mb-md-0
-            p Estos diagramas están orientados de derecha a izquierda según el orden de lectura establecido.
+            p Estos diagramas están orientados de izquierda a derecha  según el orden de lectura establecido.
           .col-md-10
             figure
               img(src='@/assets/curso/t6-t1.svg', alt='ejemplo de diagrama horizontal')
@@ -108,33 +108,37 @@
     p.mb-5.text-bold Los diagramas de flujo tienen tres características principales:
 
     .row.mb-5.justify-content-center
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-xs-8.col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t6-c1.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
               .h2 Sintética
               p Es una representación de un sistema de manera resumida.
+              br
               
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-xs-8.col-sm-6.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t6-c2.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
               .h2 Simbolizada
               p.mb-3 Aplica la simbología respectiva de los diagramas de flujo.
-
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+              br
+      .col-xs-8.col-sm-8.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t6-c3.svg')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
               .h2 De forma visible a un sistema o un proceso
-              p Los diagramas deben permitir todos los pasos de un proceso de manera clara.
-
+              p.mb-3 Los diagramas deben permitir todos los pasos de un proceso de manera clara.
+              br
 
     p.mb-5.text-bold  Y las siguientes funciones:
     
@@ -143,11 +147,13 @@
         .tarjeta.c1.p-5.text-center
           figure
             img.nW.centered(src='@/assets/curso/t6-ch1.svg' alt='figura geometrica')
+          br
           p.mb-3  El poder entender un proceso al mostrarlo como un dibujo.
       .col-lg-4
         .tarjeta.c1.p-5.text-center
           figure
             img.nW.centered(src='@/assets/curso/t6-ch2.svg' alt='figura geometrica')
+          br
           p.mb-3  Permitir identificar los problemas y oportunidades de mejora del proceso.
 
 

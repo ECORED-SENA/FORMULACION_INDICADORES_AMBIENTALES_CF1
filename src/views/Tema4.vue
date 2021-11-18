@@ -19,7 +19,40 @@
         p.mb-3  Para empresas que están orientadas hacia un futuro de sostenibilidad y sustentabilidad, no solo económica sino también ambiental, es esencial comprender cómo se está viendo afectado el medio ambiente en cada uno de los procesos que realiza la organización y la manera de hacerlo es por medio de una <b>identificación de aspectos e impactos ambientales los cuales determinarán las medidas necesarias para la mitigación de estos.</b>
         p.mb-3  Es necesario entender que <b>un aspecto ambiental es un elemento de actividades, productos o servicios de alguna actividad que puede interactuar de manera positiva o negativa con el medio ambiente.</b> Algunos ejemplos de los aspectos ambientales son entre otros:
 
-    //-- Aqui vienen los cards
+    .row.mb-5
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4-f1.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              br
+              .h2 La emisión atmosférica
+              br
+              br      
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4-f2.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              br
+              .h2 El consumo de energía o de agua
+              br
+              br     
+      .col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-acento-botones(@mouseover="indicadorTarjetaFlip = false")
+          .indicador--hover(v-if="indicadorTarjetaFlip")
+          .tarjeta-flip__contenedor
+            .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4-f3.png')})`}")
+            .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
+              br
+              .h2 El vertimiento de residuos
+              br
+              br                                      
 
     p.mb-5  En el siguiente recurso se detallan estos aspectos.
     figure.mb-5
@@ -33,24 +66,26 @@
     p.mb-5  Para ello, <b>existen dos categorías distintas de aspectos ambientales:</b>
 
     .row.mb-5.justify-content-center
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+      .col-xs-6.col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-secundario.mh-320(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.h-100
+          .tarjeta-flip__contenedor.h-100.align-items-center
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4-c1.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
               .h2 Significativos
               br
               p.mb-5 Es un elemento de las actividades, productos o servicios de una empresa que tiene o puede tener un impacto sobre el medio ambiente.
-      .col-sm-6.col-xl-4.mb-4.mb-xl-0
-        .tarjeta.tarjeta-flip.color-secundario(@mouseover="indicadorTarjetaFlip = false")
+      .col-xs-8.col-sm-6.col-xl-4.mb-4.mb-xl-0
+        .tarjeta.tarjeta-flip.color-secundario.mh-320(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
-          .tarjeta-flip__contenedor.h-100
+          .tarjeta-flip__contenedor.h-100.d-flex.align-items-center
             .tarjeta-flip__img(:style="{'background-image': `url(${require('@/assets/curso/t4-c2.png')})`}")
             .tarjeta-flip__contenido.p-4.p-xl-5.text-center
+              br
               .h2 No significativos
               br
-              p.mb-5 Los asociados al producto fabricado, buscando reducir al máximo el ciclo de vida de este.
+              p.mb-3 Los asociados al producto fabricado, buscando reducir al máximo el ciclo de vida de este.
 
     .row.mb-5.justify-content-center
       .col-lg-8
@@ -208,7 +243,8 @@
                 p.mb-0 Los índices de calidad de aire.        
               li
                 i.fas.fa-check
-                p.mb-0  Emisiones de CO2.
+                p.mb-0  Emisiones de CO
+                  sub 2.
 
         .row.justify-content-center(titulo="Ruido")
           .col-md-4
@@ -318,7 +354,7 @@
           .col-md-6.mb-4.mb-md-0
             .h4 Vegetación
             .h5 Factor contaminante:
-            p.mb-3 Se puede dar por incendios, inundaciones o remoción en masa lo cual lleva a una pérdida de la cubierta vegetal.
+            p.mb-3 Se puede dar por incendios, inundaciones o remoción en masa, lo cual lleva a una pérdida de la cubierta vegetal.
             .h5 Identificación: 
             p.mb-3  Se deberán identificar especies endémicas, autóctonas y la diversidad entre ellas. 
                               

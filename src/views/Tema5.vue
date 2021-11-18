@@ -38,7 +38,7 @@
               figure
                 img.nW(src='@/assets/curso/t5-ic3.svg', alt='icono decorativo')
             .col-md-10
-              p Determine para cada acción los elementos se ven afectados.
+              p Determine para cada acción, los elementos que se ven afectados.
 
           .row.align-items-center
             .col-md-10.mb-4.mb-md-0

@@ -48,7 +48,7 @@
           .row(titulo="Concesión de aguas superficiales")
             .col-md-6
               figure.slideInLeft
-                img(src='@/assets/curso/t3-t1.svg', alt='imagen decorativa')
+                img(src='@/assets/curso/t3-t1.png', alt='imagen decorativa')
             .col-md-6.mb-4.mb-md-0
               p.mb-3 <b>Oferta:</b> se deben presentar los caudales de los cuerpos de agua que serán intervenidos en el proyecto.
               p.mb-3 <b>Demanda:</b> es necesario realizar un inventario que denote cuáles son los usuarios que se verán afectados o beneficiados al ser utilizado este cuerpo de agua.    
