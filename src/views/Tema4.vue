@@ -57,7 +57,7 @@
     p.mb-5  En el siguiente recurso se detallan estos aspectos.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/XO_jIz06rZ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
     h3.titulo-tercero
       i.fas.fa-leaf
@@ -66,7 +66,7 @@
     p.mb-5  Para ello, <b>existen dos categorías distintas de aspectos ambientales:</b>
 
     .row.mb-5.justify-content-center
-      .col-xs-6.col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-xs-6.col-sm-8.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.mh-320(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.h-100.align-items-center
@@ -76,7 +76,7 @@
               .h2 Significativos
               br
               p.mb-5 Es un elemento de las actividades, productos o servicios de una empresa que tiene o puede tener un impacto sobre el medio ambiente.
-      .col-xs-8.col-sm-6.col-xl-4.mb-4.mb-xl-0
+      .col-xs-8.col-sm-8.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.mh-320(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.h-100.d-flex.align-items-center
