@@ -26,13 +26,13 @@
               img(src='@/assets/curso/t2-info1.svg', alt='paisaje natural con rios y cascadas')
 
           .tarjeta.color-acento-botones.p-3.shadow-box(x="24.5%" y="21.5%" numero="")
-            p Aire
+            p.mb-0 Aire
           .tarjeta.color-acento-botones.p-3.shadow-box(x="51.5%" y="4.5%" numero="")
-            p Agua
+            p.mb-0 Agua
           .tarjeta.color-acento-botones.p-3.shadow-box(x="76.5%" y="21%" numero="")
-            p Biodiversidad
+            p.mb-0 Biodiversidad
           .tarjeta.color-acento-botones.p-3.shadow-box(x="83%" y="88%" numero="")
-            p Suelo           
+            p.mb-0 Suelo           
 
       .col-lg-6(data-aos='flip-right')   
         ImagenInfografica.color-secundario.mb-5.customPoints
@@ -41,15 +41,15 @@
               img(src='@/assets/curso/t2-info2.svg', alt='paisaje de ciudad edificios y autopistas')
 
           .tarjeta.color-acento-botones.p-3.shadow-box(x="11.5%" y="6%" numero="")
-            p Capa de ozono
+            p.mb-0 Capa de ozono
           .tarjeta.color-acento-botones.p-3.shadow-box(x="53%" y="6%" numero="")
-            p Calidad urbana
+            p.mb-0 Calidad urbana
           .tarjeta.color-acento-botones.p-3.shadow-box(x="87%" y="25.5%" numero="")
-            p Residuos aprovechables
+            p.mb-0 Residuos aprovechables
           .tarjeta.color-acento-botones.p-3.shadow-box(x="71%" y="88.5%" numero="")
-            p Residuos orgánicos
+            p.mb-0 Residuos orgánicos
           .tarjeta.color-acento-botones.p-3.shadow-box(x="15%" y="80%" numero="")
-            p Cambio climático            
+            p.mb-0 Cambio climático            
 
     .row.mb-5.justify-content-center 
       .col-lg-8
