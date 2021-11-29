@@ -66,7 +66,7 @@
     p.mb-5  Para ello, <b>existen dos categorías distintas de aspectos ambientales:</b>
 
     .row.mb-5.justify-content-center
-      .col-xs-6.col-sm-8.col-xl-4.mb-4.mb-xl-0
+      .col-xs-6.col-sm-7.col-lg-5.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.mh-320(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.h-100.align-items-center
@@ -76,7 +76,7 @@
               .h2 Significativos
               br
               p.mb-5 Es un elemento de las actividades, productos o servicios de una empresa que tiene o puede tener un impacto sobre el medio ambiente.
-      .col-xs-8.col-sm-8.col-xl-4.mb-4.mb-xl-0
+      .col-xs-8.col-sm-7.col-lg-5.col-xl-4.mb-4.mb-xl-0
         .tarjeta.tarjeta-flip.color-secundario.mh-320(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
           .tarjeta-flip__contenedor.h-100.d-flex.align-items-center
